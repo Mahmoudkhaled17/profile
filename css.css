@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+}
+
+header{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 20px;
+
+>.hash{
+        flex-grow: 1;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        gap: 100PX;
+}
+>h1{
+    font-family:"Momo Signature";
+
+}
+>.feed button{
+    border: none;
+    background-color: rgb(47, 144, 228);
+    border-radius: 15px;
+    font-size: 20px;
+    height: 70px;
+    color: white;
+
+
+}
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    margin-top: 100px;
+    
+    >.about-me{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    box-shadow: 20px 10px 60px rgb(0, 157, 255);
+    border-radius: 20px;
+    >div{
+        width: 50%;
+        >h1 g{
+            color: aqua;
+            font-family: "Momo Signature";
+        }
+        >h2 ul{
+        list-style-type: none;
+        }
+        >h2 ul i{
+            color: blue;
+        }
+    }
+    >.im{
+        text-align: center;
+    }
+    >div img{
+        height: 500px;
+    
+    }
+
+    }
+}
+main .Education{
+    margin-top: 200px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+main .Education .edu{
+    margin-top: 100px;
+    display: flex;
+
+}
+main .Experances {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-bottom: 200px;
+}
+main .Experances >div{
+    margin-top: 100px;
+    display: flex;
+    >img{
+        height: 100px;
+        width: 100px;
+    }
+
+}
+
+main .projects {
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 200px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    >h1{
+        
+    }
+    >div{
+        border: 2px solid blue;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 10px 10px 10px rgb(21, 162, 239);
+        
+    }
+    >.front-End{
+    flex: 1 0 100%;
+    margin-bottom: 100px;
+    >.mapviewer{
+        >img{
+            width: 100%;
+        }
+   
+    }
+     >.profile{
+        text-align: left;
+        >img{
+            width: 100%;
+        }
+
+    }
+
+    }
+    >.graduate{
+        flex-basis: 40%;
+    }
+    >.Depi-p{
+        flex: 0 0 40%;
+    }
+
+}
+
+main .contact-me .all{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+    
+    >div img{
+        width: 100px;
+        height: 100px;
+        border-radius: 20px;
+        
+        }
+    >div a{
+            display: block;
+    }
+    }
+
+}
