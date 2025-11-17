@@ -114,7 +114,11 @@ main .projects {
     justify-content: space-between;
 
     >h1{
+        flex-basis: 100%;
         
+    }
+    >br{
+        flex-basis: 100%;
     }
     >div{
         border: 2px solid blue;
@@ -167,7 +171,7 @@ main .contact-me .all{
     }
     }
 
-@media screen and (min-width: 400px) and (max-width: 850px) {
+@media (min-width: 600px) and (max-width: 850px) {
     header{
         gap: 10px;
         width: 80%;
@@ -207,3 +211,107 @@ main .contact-me .all{
 
     
 }
+
+@media (min-width: 50px) and (max-width: 600px) {
+main{
+   /* .Education,.Experances,.projects,.contact-me{
+    display: none;} */
+}
+
+    header button {
+        display: block !important;
+    }
+
+body{
+    display: flex;
+
+    >header{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+       height: 100%;
+       gap: 5px;
+      
+    
+    }
+    header .hash, .feed{
+        display: none;
+    }
+    }
+    header .hash{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    }
+
+    main{
+        justify-content: center;
+    }
+    main .about-me,.Education,.Experances,.projects,.contact{
+        margin-top:50%;
+        
+        width: 100%;
+        margin-left: auto;
+        font-size: 10px;
+
+    }
+
+    main .about-me {
+        display: block;
+        font-size: 10px;
+        >div{
+            width: 100%;
+        }
+
+        >.im img{
+
+            position:absolute;
+            top:100px;
+            right: 10px;
+            width: 100px;
+            height: 120px;
+            box-shadow: 10px 20px 30px rgb(105, 105, 223);
+        }
+    }
+  main .Education{
+    >div{
+        >.edu{
+            margin-top: 10px;
+        }
+        >img{
+            margin-top: 10px;
+            width: 100px;
+            height: 100px;
+        }
+    }
+  }
+
+  main .Experances{
+    margin-top: 30px;
+
+  }
+
+  main .projects .graduate{
+    >h3 ul{
+        text-align: left;
+    }
+    flex-basis: 45%;
+  }
+  main .projects .Depi-p{
+    flex-basis: 45%;
+
+}
+
+main .contact-me .all {
+    > div img{
+        width: 75px;
+        height: 75px;
+    }
+    > div h1{
+        font-size: 20px;
+    }
+
+}
+
+
+
